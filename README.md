@@ -5,9 +5,15 @@ Use it to swap your Azure Functions Plan from Consumption Plan to Premium and vi
 When switching to premium, it will create a Premium Plan.
 If you switch back to consumption plan, it will delete the Premium Plan, so you don't have to pay for it.
 
-> Please be advised: Premium Plan has a constant cost!
-
 Check out the parameter documentation for more info!
+
+
+# Warning/Disclaimer
+The usage of this script is at your own peril. Neitehr myself nor my emplyoer will take any liability on what you do with it!
+Please be advised that by using this script, you can **break** your Function App!
+
+* Premium Plan has a constant cost, depending on the Plan you choose
+* premium Plan has some additional features over Consumption Plan. If you intend to go back to Consumption plan, do nto use featrues like VNETs which would break on a Consumption Plan!
 
 
 # Examples:
