@@ -19,3 +19,6 @@ Check out the parameter documentation for more info!
     
 ## Premium Plan ➡ Comsumption:
     .\af-cop.ps1 -resourceGroup function-app-rg -consumptionPlanName ASP-consumption -premiumPlanName ASP-premium -functionAppName function-swap-app -toPremium $false
+
+# Thanks
+Many thanks to [Stefano Demiliani](https://twitter.com/demiliani), on whose [blog-post](https://demiliani.com/2020/12/02/moving-azure-functions-from-consumption-to-premium-plans/) this script is based on!
