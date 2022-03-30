@@ -7,6 +7,14 @@ If you switch back to consumption plan, it will delete the Premium Plan, so you 
 
 Check out the parameter documentation for more info!
 
+# Motivation
+SometimEs you need to have pre-warmed instances - like for a game launch!
+You know that for a certain period of time, you will have a very big influx of traffic. So for this time, you want to switch to a Premium Plan.
+Later, when the traffic has normalized, you want to go back to Consumption Plan.
+
+
+To make these operations simpler (because you cannot do the switch back and forth via the Azrue Portal), I created this script based on [Stefano Demiliani's](https://twitter.com/demiliani) [blog-post](https://demiliani.com/2020/12/02/moving-azure-functions-from-consumption-to-premium-plans/)
+
 
 # Warning/Disclaimer
 The usage of this script is at your own peril. Neitehr myself nor my emplyoer will take any liability on what you do with it!
