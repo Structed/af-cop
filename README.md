@@ -31,7 +31,7 @@ Please be advised that by using this script, you can **break** your Function App
 
     .\af-cop.ps1 -resourceGroup function-app-rg -consumptionPlanName ASP-consumption -premiumPlanName ASP-premium -functionAppName function-swap-app -toPremium $true -Sku EP2
     
-## Premium Plan ➡ Comsumption:
+## Premium ➡ Comsumption Plan:
     .\af-cop.ps1 -resourceGroup function-app-rg -consumptionPlanName ASP-consumption -premiumPlanName ASP-premium -functionAppName function-swap-app -toPremium $false
 
 # Thanks
