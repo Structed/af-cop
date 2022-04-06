@@ -8,7 +8,7 @@ If you switch back to consumption plan, it will delete the Premium Plan, so you 
 Check out the parameter documentation for more info!
 
 # Motivation
-SometimEs you need to have pre-warmed instances - like for a game launch!
+Sometimes you need to have pre-warmed instances - like for a game launch!
 You know that for a certain period of time, you will have a very big influx of traffic. So for this time, you want to switch to a Premium Plan.
 Later, when the traffic has normalized, you want to go back to Consumption Plan.
 
